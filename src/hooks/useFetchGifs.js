@@ -15,6 +15,7 @@ export const useFetchGifs = (category) => {
   useEffect(() => {
     getImages();
     //getGifs(category).then((newImages) => setImages(newImages));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return {
